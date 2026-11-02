@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "aimhit",
+  "version": "${version}",
+  "name": "AimHit",
+  "description": "Hold L to aim at the nearest player and attack.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.aimhit.AimHitClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
